@@ -7,7 +7,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #F3D1BC, #A0BAE1, #C7D5ED, #BDE5EA, #F4E0C1);
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: radial-gradient(75% 75% at 35% 88%, #C7D5ED 0%, #C7D5ED00 100%),
+                    radial-gradient(75% 75% at -5% 0%, #F4E0C1 0%, #F4E0C100 100%),
+                    radial-gradient(75% 75% at -11% 87%, #BDE5EA 0%, #BDE5EA00 100%),
+                    linear-gradient(0deg, #A0BAE1 0%, #F3D1BC 91%);
+}
+
+    
 }
 
 .contenedor {
