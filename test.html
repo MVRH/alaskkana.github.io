@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #F3D1BC 0%, #A0BAE1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gradient-container {
+    width: 300px;
+    height: 300px;
+    background: 
+      linear-gradient(to top left, #F4E0C1 49.5%, transparent 50%) top left,
+      linear-gradient(to top right, #F3D1BC 49.5%, transparent 50%) top right,
+      linear-gradient(to bottom left, #BDE5EA 49.5%, transparent 50%) bottom left,
+      linear-gradient(to bottom right, #A0BAE1 49.5%, transparent 50%) bottom right,
+      linear-gradient(#C7D5ED, #C7D5ED) center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+  }
+</style>
+</head>
+<body>
+  <div class="gradient-container"></div>
+</body>
+</html>
