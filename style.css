@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #F3D1BC, #A0BAE1, #C7D5ED, #BDE5EA, #F4E0C1);
 }
 
 .contenedor {
